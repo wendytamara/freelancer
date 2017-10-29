@@ -17,6 +17,7 @@
     background-color: rgb(44, 62, 80);
    color: #fff;
 
+
   }
 
 .main-tab{
@@ -54,5 +55,26 @@ section{
 }
 
 .element{
-  padding: 20px;
+  /*padding: 20px;*/
+}
+
+}
+
+.star::before, .star-dark::before{
+  content: '\f005';
+  position: relative;
+  top: -.6em;
+  padding: 0 .25em;
+  font-size: 3em;
+}
+
+hr{
+  height: 0;
+  max-width: 250px;
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  margin: 25px auto 30px;
+  overflow: visible;
+
 }
