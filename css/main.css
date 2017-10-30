@@ -1,17 +1,17 @@
-*{
+*{  /* seteando el proyecto y aplicando especificaciones generales*/
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
   }
 
-   ul li{
+   ul li{ /* quitando viñetas, posisionandola en 1 sola linea */
     list-style: none;
    display: inline-block;
    margin-top: 25px;
    }
 
-  header{
+  header{ /* aplicando posicion, ancho, largo y color a la barra de navegacion */
     width: 100%;
     height: 80px;
     background-color: rgb(44, 62, 80);
@@ -20,42 +20,42 @@
    z-index: 2000;
   }
 
-.main-tab{
+.main-tab{ /* aplicando formato al titulo*/
   font-size: 25px;
   font-weight: bold;
   position: relative;
   left: 8%;
 }
 
-.secondary-tabs{
+.secondary-tabs{ /* aplicando posicion al menu de navegacion*/
   font-size: 16px;
   position: relative;
-    left: 45%;
-    padding: 5px;
+  left: 45%;
+  padding: 5px;
 }
 
-section, main, aside,article{
+section, main, aside,article{ /* centrando todas las secciones*/
   text-align: center;
 }
 
-section img{
+section img{ /* aplicando formato a la imagen */
   margin-top: 100px;
   margin-bottom: 30px
 }
 
-section{
+section{ /*aplicando color de fondo y margenes*/
   background: #18bc9c;
   height: 700px;
   width: 100%;
   color: #fff;
 }
 
-.title-element{
+.title-element{ /* aplicando tamaño al titulo*/
   font-size: 75px;
 }
 
 
-.star::before{
+.star::before{ /* aplicando formato a las estrellas blancas*/
   content: '\f005';
   position: relative;
   top: -.6em;
@@ -64,7 +64,7 @@ section{
   background-color:#18bc9c;
 }
 
-.star-dark::before{
+.star-dark::before{ /* aplicando formato a las estrellas-oscuras*/
   content: '\f005';
   position: relative;
   top: -.6em;
@@ -74,11 +74,11 @@ section{
 
 }
 
-.star-dark{
+.star-dark{ /* aplicando color a la estrella-oscura*/
  color: #2c3e50;
 }
 
-hr{
+hr{ /* aplicando grosor, tamaño a la linea horizontal*/
   height: 0;
   max-width: 250px;
   padding: 0;
@@ -89,30 +89,30 @@ hr{
 
 }
 
-.specialties {
+.specialties { /* aplicando tamaño y tipo de letra al texto*/
   font-family: 'Lato', sans-serif;
   font-weight: 100;
   font-size: 28px;
 }
 
-main{
+main{ /* añadiendo margenes a la 2da seccion */
   padding-top: 90px;
  padding-bottom: 90px;
 }
 
-.title-box{
+.title-box{ /* aplicando tamaño y color al titulo*/
   font-size: 50px;
   color: #212529;
 }
 
 
 
-main img{
+main img /* aplicando tamaño y margenes a las fotos*/
   width: 380px;
   padding: 13px
 }
 
-aside{
+aside{ /* aplicando tamaño y margenes a la 3era seccion*/
   padding-top: 100px;
   padding-bottom: 100px;
   background: #18bc9c;
@@ -121,11 +121,11 @@ aside{
   width: 100%;
 }
 
-aside h1{
+aside h1{ /* aplicando tamaño al titulo*/
   font-size: 50px;
 }
 
-aside div p{
+aside div p{ /* aplicando tamaño, tipo de letra, y espacios*/
   display: inline-block;
   text-align: left;
  font-family: 'Lato', sans-serif;
@@ -135,23 +135,20 @@ box-sizing: border-box;
 
 }
 
-.first-paragraph, .second-paragraph{
+.first-paragraph, .second-paragraph{  /* aplicando tamaño a cada parrafo*/
   width: 31%;
   margin-top: 0;
-
-
 }
-.first-paragraph{
+
+.first-paragraph{ /* aplicando margen derecho al 1er parrafo*/
   padding-right: 20px;
-
 }
 
-
-.second-paragraph{
+.second-paragraph{ /* aplicando margen izquierdo al 1er parrafo*/
  padding-left: 20px;
 }
 
-aside .button{
+aside .button{  /* aplicando formato a la caja*/
    padding: 10px;
    background: #18bc9c;
    border: 2px solid white;
@@ -161,27 +158,23 @@ aside .button{
    border-radius: 5px;
 }
 
-.button a{
+.button a{ /* aplicando formato al icono*/
     text-decoration: none;
     color: #fff;
     font-family: 'Lato', sans-serif;
 }
-/*
-form{
-  border: 0 200px;
-} */
 
-article{
+article{  /* aplicando margenes a la 4ta seccion*/
   margin: 100px 300px;
   margin-bottom: 200px;
 
 }
-.title-contact{
+.title-contact{ /* aplicando formato al titulo*/
   font-size: 50px;
   color: #212529;
 }
 
-article form input{
+article form input{ /* aplicando formato a los input del formulario*/
   margin: 40px 0;
   display: block;
   padding: 2px;
@@ -190,18 +183,17 @@ article form input{
   width: 500px;
   border: none;
   outline: none;
-
 }
 
 article div{
   border-bottom: 1px solid #eee;
 }
 
-.message{
+.message{ /* aplicando margen interno al boton de enviar*/
   padding-bottom: 150px;
 }
 
-.second-bottom{
+.second-bottom{ /* aplicando formato al la caja*/
   margin-top: 40px;
   background: #18bc9c;
   color: #fff;
@@ -212,10 +204,9 @@ article div{
   font-weight: 700;
   font-size: 20px;
   float: left;
-
 }
 
-footer{
+footer{ /* aplicando margenes al pie de pagina*/
   clear:both;
   text-align: center;
   background: #2c3e50;
@@ -224,7 +215,7 @@ footer{
   height: 350px;
 }
 
-footer div{
+footer div{ /* aplicando tamaño y posicion horizontal*/
  display: inline-block;
  width: 33%;
  padding: 3px;
@@ -233,11 +224,11 @@ footer div{
 
 }
 
-footer h2{
+footer h2{ /* aplicando formato a los titulos*/
   padding: 40px;
 }
 
-.second-section p{
+.second-section p{ /* aplicando tamaño y forma a los iconos*/
 display: inline-block;
 border: 2px solid white;
 padding: 10px;
@@ -248,12 +239,12 @@ margin: 2px;
 
 }
 
-.last-section{
+.last-section{  /* aplicando formato al icono*/
   margin-top: 100px;
   font-family: 'Lato', sans-serif;
 }
 
-.description{
+.description{ /* aplicando tamaño y tipo de letra */
    font-family: 'Lato', sans-serif;
    font-size: 20px;
 }
