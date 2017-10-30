@@ -17,6 +17,7 @@
     background-color: rgb(44, 62, 80);
    color: #fff;
    position: fixed;
+   z-index: 2000;
   }
 
 .main-tab{
@@ -54,12 +55,27 @@ section{
 }
 
 
-.star::before, .star-dark::before{
+.star::before{
   content: '\f005';
   position: relative;
   top: -.6em;
   padding: 0 .25em;
   font-size: 2em;
+  background-color:#18bc9c;
+}
+
+.star-dark::before{
+  content: '\f005';
+  position: relative;
+  top: -.6em;
+  padding: 0 .25em;
+  font-size: 2em;
+  background-color:#fff;
+
+}
+
+.star-dark{
+ color: #2c3e50;
 }
 
 hr{
@@ -89,12 +105,10 @@ main{
   color: #212529;
 }
 
-.star-dark{
-  color: #2c3e50;
-}
+
 
 main img{
-  width: 315px;
+  width: 380px;
   padding: 13px
 }
 
@@ -117,19 +131,24 @@ aside div p{
  font-family: 'Lato', sans-serif;
  font-size: 20px;
  line-height: 1.5;
-
 box-sizing: border-box;
 
 }
 
-.first-paragraph{
-  width: 265px;
+.first-paragraph, .second-paragraph{
+  width: 31%;
+  margin-top: 0;
+
 
 }
+.first-paragraph{
+  padding-right: 20px;
+
+}
+
+
 .second-paragraph{
-  width: 330px;
-  margin-top: 0;
-  padding-left: 40px;
+ padding-left: 20px;
 }
 
 aside .button{
@@ -147,25 +166,94 @@ aside .button{
     color: #fff;
     font-family: 'Lato', sans-serif;
 }
+/*
+form{
+  border: 0 200px;
+} */
 
 article{
-  margin: 100px;
+  margin: 100px 300px;
+  margin-bottom: 200px;
+
 }
 .title-contact{
-  font-size: 60px;
+  font-size: 50px;
   color: #212529;
 }
 
 article form input{
-    margin: 40px 0;
-    display: block;
-    padding: 2px;
+  margin: 40px 0;
+  display: block;
+  padding: 2px;
   font-family: 'Lato', sans-serif;
   font-size: 1.5em;
   width: 500px;
   border: none;
+  outline: none;
+
 }
 
 article div{
   border-bottom: 1px solid #eee;
+}
+
+.message{
+  padding-bottom: 150px;
+}
+
+.second-bottom{
+  margin-top: 40px;
+  background: #18bc9c;
+  color: #fff;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  float: left;
+
+}
+
+footer{
+  clear:both;
+  text-align: center;
+  background: #2c3e50;
+  padding: 20px 100px;
+  color: #fff;
+  height: 350px;
+}
+
+footer div{
+ display: inline-block;
+ width: 33%;
+ padding: 3px;
+ box-sizing: border-box;
+ vertical-align: top;
+
+}
+
+footer h2{
+  padding: 40px;
+}
+
+.second-section p{
+display: inline-block;
+border: 2px solid white;
+padding: 10px;
+font-size: 20px;
+width: 50px;
+border-radius: 100%;
+margin: 2px;
+
+}
+
+.last-section{
+  margin-top: 100px;
+  font-family: 'Lato', sans-serif;
+}
+
+.description{
+   font-family: 'Lato', sans-serif;
+   font-size: 20px;
 }
