@@ -105,11 +105,9 @@ main{ /* añadiendo margenes a la 2da seccion */
   color: #212529;
 }
 
-
-
-main img /* aplicando tamaño y margenes a las fotos*/
-  width: 380px;
-  padding: 13px
+main img {
+    width: 30%;
+    padding: 13px;
 }
 
 aside{ /* aplicando tamaño y margenes a la 3era seccion*/
@@ -210,7 +208,6 @@ footer{ /* aplicando margenes al pie de pagina*/
   clear:both;
   text-align: center;
   background: #2c3e50;
-  padding: 20px 100px;
   color: #fff;
   height: 350px;
 }
